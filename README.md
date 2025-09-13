@@ -156,6 +156,7 @@ The compiled artifact of a service should be stable and environment-agnostic. It
   * Follow the **Twelve-Factor App** methodology for configuration management.
   * Use **Configuration as Code (CaC)** to manage configurations in version control.
   * Leverage **Feature Flags** to enable or disable features without code changes.
+  * Use **Infrastructure as Code (IaC)** tools to manage environment-specific settings.
 
 #### **Example: Before and After**
 
