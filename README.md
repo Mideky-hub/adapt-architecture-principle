@@ -245,7 +245,7 @@ This is a living document, owned by the community that uses it. If these princip
 
 Add this badge to your project's `README.md` to show that you are building your architecture with the ADAPT principles in mind.
 
-[](https://github.com/Mideky-hub/adapt-architecture-principle/)
+[![ADAPT Architecture](https://img.shields.io/badge/Architecture-ADAPT-blueviolet)](https://github.com/Mideky-hub/adapt-architecture-principle/)
 
 #### Copy this markdown snippet:
 
