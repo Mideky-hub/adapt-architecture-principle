@@ -217,7 +217,6 @@ An event is just a class in a shared library. If Service A changes the class, Se
 ##### **After: Explicit Contracts with a Schema**
 
 ```json
-// An Avro schema defines the contract in a language-agnostic way.
 {
   "type": "record",
   "name": "OrderPlacedEvent",
@@ -225,7 +224,7 @@ An event is just a class in a shared library. If Service A changes the class, Se
     {"name": "orderId", "type": "string"},
     {"name": "productId", "type": "string"},
     {"name": "quantity", "type": "int"},
-    {"name": "customerId", "type": ["null", "string"], "default": null} // Evolving the schema
+    {"name": "customerId", "type": ["null", "string"], "default": null} 
   ]
 }
 ```
