@@ -1,5 +1,11 @@
 # The ADAPT Architecture Manifesto
 
+-----
+
+![ADAPT Banner](https://i.ibb.co/6c0SsK9Q/ADAPTBANNER.png)
+
+-----
+
 ### A Pragmatic Approach to Building Resilient, Context-Driven Software
 
 -----
