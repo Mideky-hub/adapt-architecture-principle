@@ -26,7 +26,7 @@ This document outlines the five core principles of the **ADAPT** architecture.
 
 These principles are not rules to be followed blindly, but pillars for a philosophy of pragmatic software design.
 
-### 1\. `A` - Asynchronous Communication
+### 1\. `A` - Asynchronous First Communication
 
 > **Services must be decoupled, communicating through events rather than direct calls to build resilient and scalable systems.**
 
@@ -119,7 +119,8 @@ Now, all the logic for creating a user lives in one place. If we need to add a w
 
 ### 3\. `A` - Abstraction with Purpose
 
-> **Abstraction is a tool to be used with caution, justified by a clear and present need, not a hypothetical future.**
+> **Abstractions must be justified by empirical evidence of complexity reduction, not speculative future requirements.**
+
 
 Abstractions are powerful but can lead to unnecessary complexity and performance hazards if used indiscriminately. We resist creating abstractions (interfaces, base classes) prematurely based on what we *might* need tomorrow (**YAGNI** - You Ain't Gonna Need It).
 
@@ -151,7 +152,7 @@ This is a formal 3-step process to avoid hasty decisions.
 
 -----
 
-### 4\. `P` - Piloted by Configuration
+### 4\. `P` - Piloted through Configuration
 
 > **A service's behavior must be directed by external configuration, designing the code as a flexible engine rather than a rigid script.**
 
